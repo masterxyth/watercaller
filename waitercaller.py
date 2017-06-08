@@ -22,7 +22,7 @@ from bitlyhelper import BitlyHelper
 from passwordhelper import PasswordHelper
 from user import User
 
-if config.test
+if config.test:
     from mockdbhelper import MockDBHelper as DBHelper
 else:
     from dbhelper import DBHelper

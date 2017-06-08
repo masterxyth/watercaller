@@ -19,5 +19,5 @@ class LoginForm(FlaskForm):
     submit = SubmitField('submit', [validators.DataRequired()])
 
 class CreateTableForm(FlaskForm):
-    tablenumber = TextField('tablenumber', validators=[validators.DataRequired])
-    submit = SubmitField('createtablesubmit', validators=[validators.DataRequired])
+    tablenumber = TextField('tablenumber', validators=[validators.DataRequired()])
+    submit = SubmitField('createtablesubmit', validators=[validators.DataRequired()])
